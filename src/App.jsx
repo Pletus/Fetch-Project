@@ -1,14 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import navbar from './components/navbar';
 
 function App() {
-  
+  const [search, setSearch] = useState({});
+
+
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      {/* Navbar component */}
+
+      {/* Body section */}
+
     </>
   )
 }
