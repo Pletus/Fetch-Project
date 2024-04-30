@@ -3,7 +3,19 @@ import '../App.css'
 
 function navbar() {
   return (
-    <div></div>
+    <nav>
+
+        <div>
+
+        </div>
+
+        {/* Separating nav in two */}
+
+        <div>
+            
+        </div>
+
+    </nav>
   )
 }
 
