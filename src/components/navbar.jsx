@@ -1,7 +1,7 @@
 import '../App.css'
 
 
-function navbar() {
+function Navbar() {
   return (
     <nav>
 
@@ -12,11 +12,12 @@ function navbar() {
         {/* Separating nav in two */}
 
         <div>
-            
+            <a href="">Login</a>
+            <button><input type="text" /></button>
         </div>
 
     </nav>
   )
 }
 
-export default navbar
+export default Navbar;

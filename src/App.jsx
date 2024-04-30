@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import navbar from './components/navbar';
+import Navbar from './components/navbar';
 
 function App() {
   const [search, setSearch] = useState({});
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      {/* Navbar component */}
+      <Navbar />
 
       {/* Body section */}
 
