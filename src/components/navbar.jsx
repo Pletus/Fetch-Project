@@ -27,7 +27,7 @@ function Navbar() {
 
         <div>
             <a href="">Login</a>
-            <button><input type="text" /></button>
+            <button><input type="text" placeholder='type here what you are looking for...' /></button>
         </div>
 
     </nav>
