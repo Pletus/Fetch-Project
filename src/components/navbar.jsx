@@ -13,7 +13,7 @@ function Navbar() {
 
         <div>
             <a href="">Login</a>
-            <button><input type="text" /></button>
+            <button><input type="text"/></button>
         </div>
 
     </nav>
