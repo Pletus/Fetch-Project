@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/navbar';
 
 function App() {
-  const [search, setSearch] = useState({});
+  const [search, setSearch] = useState([]);
 
 
 
