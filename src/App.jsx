@@ -9,9 +9,10 @@ function App() {
 
   return (
     <>
-    <Navbar />
+      <Navbar />
+      
 
-    {/* Body section */}
+      {/* Body section */}
 
 
     <Post/>
