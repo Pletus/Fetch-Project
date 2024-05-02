@@ -1,0 +1,15 @@
+.navbarstyling {
+    background-color: #f29f22;
+    height: 100%;
+    width: 100%;
+}
+
+.search-btn-navbar {
+    width: 40rem;
+    background-color: #fff5e6;
+}
+
+.input-btn-navbar {
+    width: 30rem;
+    background-color: #fff5e6;
+}
