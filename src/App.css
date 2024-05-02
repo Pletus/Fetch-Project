@@ -5,11 +5,18 @@
 }
 
 .search-btn-navbar {
-    width: 40rem;
+    width: 30rem;
     background-color: #fff5e6;
 }
 
 .input-btn-navbar {
-    width: 30rem;
+    width: 20rem;
     background-color: #fff5e6;
 }
+
+.vertical-bar {
+    height: 40px;
+    width: 2px;
+    background-color: black;
+    margin: 0 10px;
+  }
