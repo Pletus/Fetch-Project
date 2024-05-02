@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import Post from './components/post';
 function App() {
   const [search, setSearch] = useState([]);
+  const [news, setNews] = useState({});
 
 
 
