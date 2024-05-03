@@ -3,17 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 function OneResult() {
     const [listings, setListings] = useState([]);
-    //   {
-    //     title:'xyz',
-    //     url: 'popcornlinux.org',
-    //     points: '2 points',
-    //     author: 'msadowski',
-    //     time: '10 minutes ago',
-    //     comments: '5 comments',
-    //       },
-    // ]);
-    
-    // const url = 'http://hn.algolia.com/api/v1/items/:id'; 
+
 
  useEffect(() => {
         const fetchData = async () => {
