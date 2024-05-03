@@ -1,35 +1,45 @@
-import '../App.css'
+import "../App.css";
 
 function Post() {
   return (
-    <div>
-	  <br />
-      <ul>
-        <li>
-          <h2>Breaking News Headline 1</h2>
+    <div className='center'>
+      <ol className='list-inside list-decimal  mr-4'>
+        <li className='lilisting '>
+          <h2 className='text-black-500 text-lg font-semibold text-left mb-4'>
+            Breaking News Headline{" "}
+          </h2>
           <p>Published on April 30, 2024</p>
           <p>This is the summary of the breaking news article 1.</p>
-          <a href='#'>Read more</a>
         </li>
-        <li>
-          <h2>Breaking News Headline 2</h2>
+        <li className='lilisting'>
+          <h2 className='text-black-500 text-lg font-semibold text-left mb-4'>
+            Breaking News Headline{" "}
+          </h2>
           <p>Published on April 30, 2024</p>
           <p>This is the summary of the breaking news article 2.</p>
-          <a href='#'>Read more</a>
         </li>
-		<li>
-          <h2>Breaking News Headline 3</h2>
+        <li className='lilisting'>
+          <h2 className='text-black-500 text-lg font-semibold text-left mb-4'>
+            Breaking News Headline{" "}
+          </h2>
           <p>Published on April 30, 2024</p>
           <p>This is the summary of the breaking news article 2.</p>
-          <a href='#'>Read more</a>
         </li>
-		<li>
-          <h2>Breaking News Headline 4</h2>
+        <li className='lilisting'>
+          <h2 className='text-black-500 text-lg font-semibold text-left mb-4'>
+            Breaking News Headline
+          </h2>
           <p>Published on April 30, 2024</p>
           <p>This is the summary of the breaking news article 2.</p>
-          <a href='#'>Read more</a>
         </li>
-      </ul>
+        <li className='lilisting'>
+          <h2 className='text-black-500 text-lg font-semibold text-left mb-4'>
+            Breaking News Headline
+          </h2>
+          <p>Published on April 30, 2024</p>
+          <p>This is the summary of the breaking news article 2.</p>
+        </li>
+      </ol>
     </div>
   );
 }
