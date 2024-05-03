@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react';
 import './App.css'
 import Navbar from './components/navbar';
+import OneResult from './components/OneResult' ;
 
 function App() {
   const [search, setSearch] = useState({});
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
 
       {/* Body section */}
+      <OneResult />
 
     </>
   )
