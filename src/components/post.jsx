@@ -4,7 +4,7 @@ function Post() {
   return (
     <div className='center'>
       <ol className='list-inside list-decimal  mr-4'>
-        <li className='lilisting '>
+        <li className='lilisting'>
           <h2 className='text-black-500 text-lg font-semibold text-left mb-4'>
             Breaking News Headline{" "}
           </h2>
