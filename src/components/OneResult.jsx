@@ -34,11 +34,10 @@ function OneResult({ results, setResults }) {
   // }
 
   
-  // Check if the results array is empty
-  if (results.length === 0) {
-    return <p>No results available.</p>; // Return a message if the array is empty
+
+
   
-  }
+ 
 
   return (
     <div className='lilisting'>
