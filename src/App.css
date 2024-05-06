@@ -1,0 +1,32 @@
+.navbarstyling {
+    background-color: #f29f22;
+    height: 100%;
+    width: 100%;
+}
+
+.search-btn-navbar {
+    width: 45rem;
+    background-color: #fff5e6;
+}
+
+.input-btn-navbar {
+    width: 35rem;
+    background-color: #fff5e6;
+}
+
+.vertical-bar {
+    height: 40px;
+    width: 2px;
+    background-color: black;
+    margin: 0 10px;
+  }
+
+
+.lilisting
+{
+  padding: 20px;
+  background-color: hsl(0, 0%, 95%);  
+  color: black;
+}
+
+ 
